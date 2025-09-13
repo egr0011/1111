@@ -104,15 +104,7 @@ export default function Nav() {
               Home
             </Link>
           </li>
-          <li>
-            <Link
-              to="/gallery"
-              className="text-black font-medium hover:text-yellow-400"
-              onClick={() => setIsOpen(false)}
-            >
-              Gallery
-            </Link>
-          </li>
+      
           <li>
             <Link
               to="/album"
