@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-wedding {
+  font-family: 'WeddingDream', cursive;
+  /* fallback cursive */
+}
