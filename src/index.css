@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
-.font-playfair {
-  font-family: 'Playfair Display', serif;
+
+
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
 }
 
-.font-wedding {
-  font-family: 'WeddingDream', cursive;
-  /* fallback cursive */
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
 }

@@ -75,7 +75,7 @@ export default function Gallery() {
   // Initialize AOS and load initial images
   useEffect(() => {
     AOS.init({ 
-      duration: 800, 
+      duration: 500, 
       once: false,
       offset: 100
     });
@@ -139,7 +139,7 @@ export default function Gallery() {
   return (
     <div className="p-6">
       <h2 
-        className="text-2xl font-bold mb-6 capitalize text-center"
+        className="text-2xl font-cinzel font-bold mb-6 capitalize text-center"
         data-aos="fade-up"
         data-aos-delay="100"
       >
@@ -181,7 +181,7 @@ export default function Gallery() {
           <button
             onClick={loadMoreImages}
             disabled={isLoading}
-            className="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+            className=" font-cinzel bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
             data-aos="fade-up"
             data-aos-delay="200"
           >

@@ -12,7 +12,7 @@ const albums = [
 
 export default function Album() {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
+    AOS.init({ duration: 500, once: true });
   }, []);
 
   return (
@@ -29,7 +29,7 @@ export default function Album() {
             alt={album.name}
             className="w-full h-48 object-cover"
           />
-          <div className="p-4 text-center font-semibold text-lg">
+          <div className="p-4 text-center font-cinzel text-lg">
             {album.name}
           </div>
         </Link>
